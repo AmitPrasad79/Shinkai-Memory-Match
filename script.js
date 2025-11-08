@@ -21,7 +21,7 @@ let timer = null;
 let lockBoard = false;
 let gameStarted = false;
 
-const images = Array.from({ length: 30 }, (_, i) => `images/img${i + 1}.png`);
+const images = Array.from({ length: 30 }, (_, i) => `assets/img${i + 1}.png`);
 const times = { 4: 120, 6: 180, 8: 240, 10: 300 };
 
 startBtn.addEventListener("click", startCountdown);
