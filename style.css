@@ -114,19 +114,9 @@ button:hover {
   box-shadow: 0 0 10px #ff4d2e44;
 }
 
-/* ✅ Correct transparent Shinkai logo overlay */
+/* ✅ Shinkai Logo on Card Front (the box before flipping) */
 .card-front {
-  position: relative;
-  background: #1a001f;
-}
-
-.card-front::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: url("assets/shinkai.png") center/70% no-repeat;
-  opacity: 0.1; /* transparency level */
-  pointer-events: none;
+  background: #1a001f url("assets/shinkai.png") center/70% no-repeat;
 }
 
 .card-back {
