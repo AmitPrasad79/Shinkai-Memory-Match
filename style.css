@@ -12,16 +12,16 @@ body {
 .container {
   text-align: center;
   background: rgba(20, 0, 30, 0.9);
-  border: 3px solid #ff00ff66;
+  border: 3px solid #ff4d2e66;
   border-radius: 20px;
   padding: 30px 50px;
-  box-shadow: 0 0 40px #ff00ff66;
+  box-shadow: 0 0 40px #ff4d2e66;
 }
 
 .title {
   font-size: 2rem;
   color: #ff4d2e;
-  text-shadow: 0 0 20px #ff00ff;
+  text-shadow: 0 0 20px #ff4d2e;
 }
 
 .desc {
@@ -54,7 +54,7 @@ button:hover {
 .countdown {
   font-size: 80px;
   font-weight: bold;
-  color: #ff66ff;
+  color: #ff4d2e;
   text-shadow: 0 0 30px #ff4d2e;
   margin-top: 20px;
 }
@@ -80,8 +80,8 @@ button:hover {
   background: rgba(40, 0, 60, 0.6);
   border-radius: 20px;
   padding: 15px;
-  border: 2px solid #ff00ff55;
-  box-shadow: 0 0 20px #ff00ff44;
+  border: 2px solid #ff4d2e55;
+  box-shadow: 0 0 20px #ff4d2e44;
 }
 
 .card {
@@ -110,8 +110,8 @@ button:hover {
   backface-visibility: hidden;
   border-radius: 10px;
   overflow: hidden;
-  border: 2px solid #ff00ff55;
-  box-shadow: 0 0 10px #ff00ff44;
+  border: 2px solid #ff4d2e55;
+  box-shadow: 0 0 10px #ff4d2e44;
 }
 
 .card-front {
@@ -138,7 +138,6 @@ button:hover {
   100% { opacity: 0; transform: scale(0); }
 }
 
-/* Restart + Back buttons */
 .controls {
   display: flex;
   justify-content: center;
@@ -151,54 +150,10 @@ button:hover {
   margin-top: 10px;
 }
 
-/* Popup modal */
 .popup {
   position: fixed;
   top: 0; left: 0;
   width: 100%; height: 100%;
-  background: rgba(0,0,0,0.7);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 1000;
-}
-
-.popup-content {
-  background: rgba(30, 0, 40, 0.95);
-  padding: 30px 50px;
-  border-radius: 15px;
-  text-align: center;
-  border: 2px solid #ff00ff88;
-  box-shadow: 0 0 30px #ff4d2e;
-}
-
-.popup-content h2 {
-  color: #ff66ff;
-  margin-bottom: 20px;
-  text-shadow: 0 0 15px #ff4d2e;
-}
-
-.popup-content button {
-  padding: 8px 16px;
-  border: none;
-  border-radius: 8px;
-  background: #ff33cc;
-  color: white;
-  font-weight: bold;
-  cursor: pointer;
-  box-shadow: 0 0 15px #ff4d2e;
-}
-
-.popup-content button:hover {
-  background: #ff4d2e;
-}
-
-.popup {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
   background: rgba(10, 0, 20, 0.9);
   display: flex;
   justify-content: center;
@@ -210,18 +165,19 @@ button:hover {
   background: #2a003a;
   padding: 30px 50px;
   border-radius: 20px;
-  border: 3px solid #ff00ff66;
-  box-shadow: 0 0 40px #ff00ff99;
+  border: 3px solid #ff4d2e66;
+  box-shadow: 0 0 40px #ff4d2e99;
   text-align: center;
 }
 
 .popup-content h2 {
-  color: #ff66ff;
+  color: #ff4d2e;
   margin-bottom: 20px;
+  text-shadow: 0 0 15px #ff4d2e;
 }
 
 .popup-content button {
-  background: #ff33cc;
+  background: #ff4d2e;
   color: white;
   border: none;
   border-radius: 8px;
@@ -232,7 +188,7 @@ button:hover {
 }
 
 .popup-content button:hover {
-  background: #ff00ff;
+  background: #ff4d2e;
   transform: scale(1.05);
 }
 
@@ -260,7 +216,7 @@ button:hover {
 }
 
 #footer a {
-  color: #ff66a3;
+  color: #ff4d2e;
   text-decoration: none;
 }
 
