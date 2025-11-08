@@ -175,7 +175,7 @@ function checkMatch() {
       if (matched === cards.length) {
         clearInterval(timer);
         gameStarted = false;
-        setTimeout(() => showPopup("🎉 You Win! Sentient brain activated!"), 300);
+        setTimeout(() => showPopup("🎉 You Win! Shinkai brain activated!"), 300);
       }
     } else {
       setTimeout(() => {
