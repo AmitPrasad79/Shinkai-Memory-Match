@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shinkai Memory Match</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="bgCanvas"></canvas>
+  <div class="container">
+    <h1 class="title">🧠 Shinkai Memory Match</h1>
+    <p class="desc">
+      Test your shinkai brain! Match pairs before time runs out.<br>
+      Choose your challenge and start.
+    </p>
+
+    <div class="menu">
+      <select id="difficulty">
+        <option value="4">Easy (4x4)</option>
+        <option value="6">Medium (6x6)</option>
+        <option value="8">Hard (8x8)</option>
+        <option value="10">Extreme (10x10)</option>
+      </select>
+      <button id="startBtn">Start</button>
+    </div>
+    <div id="countdown" class="countdown hidden">3</div>
+    <div id="gameArea" class="game-area hidden">
+      <div id="timer" class="timer"></div>
+      <div id="gameBoard" class="game-board"></div>
+      <div class="controls">
+        <button id="backBtn" class="back-btn hidden">⬅ Back</button>
+        <button id="restartBtn" class="restart-btn hidden">Restart</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <h2 id="popupMessage">You Win!</h2>
+      <button id="popupClose">OK</button>
+    </div>
+  </div>
+
+    <div id="footer">
+    Made with ❤️ by 
+    <a href="https://twitter.com/0xBalls" target="_blank">@0xBalls</a>
+  </div>
+  
+  <script src="fall.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
