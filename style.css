@@ -114,7 +114,6 @@ button:hover {
   box-shadow: 0 0 10px #ff4d2e44;
 }
 
-/* ✅ Shinkai Logo on Card Front (the box before flipping) */
 .card-front {
   background: #1a001f url("assets/shinkai.png") center/70% no-repeat;
 }
@@ -124,13 +123,12 @@ button:hover {
   overflow: hidden;
 }
 
-/* Logo with reduced opacity */
 .card-front::before {
   content: "";
   position: absolute;
   inset: 0;
   background: url("assets/shinkai.png") center/70% no-repeat;
-  opacity: 0.35; /* adjust lower/higher */
+  opacity: 0.1; 
   pointer-events: none;
 }
 
