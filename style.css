@@ -114,20 +114,18 @@ button:hover {
   box-shadow: 0 0 10px #ff4d2e44;
 }
 
-/* ✅ Remove the old background-image here */
+/* ✅ Correct transparent Shinkai logo overlay */
 .card-front {
   position: relative;
   background: #1a001f;
-  overflow: hidden;
 }
 
-/* ✅ Transparent logo overlay */
 .card-front::before {
   content: "";
   position: absolute;
   inset: 0;
   background: url("assets/shinkai.png") center/70% no-repeat;
-  opacity: 0.1; /* Transparent */
+  opacity: 0.1; /* transparency level */
   pointer-events: none;
 }
 
@@ -239,4 +237,11 @@ button:hover {
   text-decoration: underline;
 }
 
-
+.logo {
+  width: 90px;
+  height: 90px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  box-shadow: 0 0 20px #ff4d2e66;
+  border: 2px solid #ff4d2e55;
+}
