@@ -114,21 +114,20 @@ button:hover {
   box-shadow: 0 0 10px #ff4d2e44;
 }
 
+/* ✅ Remove the old background-image here */
 .card-front {
-  background: #1a001f url("assets/shinkai.png") center/70% no-repeat;
-}
-
   position: relative;
   background: #1a001f;
   overflow: hidden;
 }
 
+/* ✅ Transparent logo overlay */
 .card-front::before {
   content: "";
   position: absolute;
   inset: 0;
   background: url("assets/shinkai.png") center/70% no-repeat;
-  opacity: 0.1; 
+  opacity: 0.1; /* Transparent */
   pointer-events: none;
 }
 
